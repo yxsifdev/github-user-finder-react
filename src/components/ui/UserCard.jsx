@@ -11,7 +11,7 @@ function UserCard({ userLogin, userName, userAvatar, type, url }) {
       <img
         src={userAvatar}
         alt={`${userName || userLogin}'s avatar`}
-        className="w-20 h-20 rounded-full object-cover"
+        className="object-cover w-20 h-20 rounded-full"
       />
       <div>
         <h2 className="text-xl font-semibold">

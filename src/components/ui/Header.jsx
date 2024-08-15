@@ -2,7 +2,7 @@ import GitHubIcon from "@icons/GitHubIcon";
 
 function Header() {
   return (
-    <header className="max-w-5xl my-0 mx-auto flex justify-between items-center py-5 px-3">
+    <header className="flex items-center justify-between max-w-5xl px-3 py-5 mx-auto my-0">
       <div className="flex items-center gap-4">
         <GitHubIcon width="35" height="35" />
         <h1 className="text-2xl font-bold">Usuarios en GitHub</h1>
@@ -12,7 +12,7 @@ function Header() {
           <li className="">
             <a
               href="#"
-              className="text-lg text-white/60 hover:text-white transition"
+              className="text-lg transition text-white/60 hover:text-white"
             >
               GitHub
             </a>
@@ -20,7 +20,7 @@ function Header() {
           <li>
             <a
               href="#"
-              className="text-lg text-white/60 hover:text-white transition"
+              className="text-lg transition text-white/60 hover:text-white"
             >
               Repositorio
             </a>
@@ -28,7 +28,7 @@ function Header() {
           <li>
             <a
               href="#"
-              className="text-lg text-white/60 hover:text-white transition"
+              className="text-lg transition text-white/60 hover:text-white"
             >
               Discord
             </a>

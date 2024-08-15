@@ -17,12 +17,12 @@ function Search() {
       <input
         type="text"
         onChange={(e) => setUser(e.target.value)}
-        className="bg-white/10 rounded p-3 border border-white/10 focus:border-primary outline-none"
+        className="p-3 border rounded outline-none bg-white/10 border-white/10 focus:border-primary"
         placeholder="Buscar usuario..."
       />
       <button
         type="submit"
-        className="bg-primary font-semibold py-3 px-4 rounded"
+        className="px-4 py-3 font-semibold rounded bg-primary"
       >
         Buscar
       </button>

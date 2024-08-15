@@ -4,13 +4,13 @@ function HomePage() {
   return (
     <>
       <Header />
-      <main className="max-w-5xl my-0 mx-auto py-10 px-3">
-        <div className="flex flex-col items-center text-center mb-10">
-          <h1 className="text-3xl md:text-5xl font-bold mb-3">
-            Encuentra y explora usuarios de{" "}
+      <main className="max-w-5xl px-3 py-10 mx-auto my-0">
+        <div className="flex flex-col items-center mb-10 text-center">
+          <h1 className="mb-3 text-3xl font-bold md:text-5xl">
+            Encuentra y explora usuarios de
             <span className="text-primary">GitHub</span> fácilmente
           </h1>
-          <p className="text-white/70 text-lg md:text-xl">
+          <p className="text-lg text-white/70 md:text-xl">
             Consulta la información y los repositorios de cualquier usuario de
             GitHub aquí.
           </p>

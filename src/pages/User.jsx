@@ -68,7 +68,7 @@ function UserPage() {
     return (
       <>
         <Header />
-        <main className="max-w-5xl my-0 mx-auto py-10 px-3">
+        <main className="max-w-5xl px-3 py-10 mx-auto my-0">
           <div>{error}</div>
           <br />
           <Link to="/">Volver al inicio</Link>
@@ -80,13 +80,13 @@ function UserPage() {
   return (
     <>
       <HeaderUser />
-      <main className="max-w-5xl my-0 mx-auto py-10 px-3">
+      <main className="max-w-5xl px-3 py-10 mx-auto my-0">
         <h1>Resultados para "{username}"</h1>
 
         {users.length > 0 && (
           <>
-            <h2 className="text-2xl font-bold mb-3">Usuarios:</h2>
-            <div className="flex flex-wrap gap-5 justify-start">
+            <h2 className="mb-3 text-2xl font-bold">Usuarios:</h2>
+            <div className="flex flex-wrap justify-start gap-5">
               {users.map((user) => (
                 <UserCard
                   key={user.login}
@@ -102,8 +102,8 @@ function UserPage() {
 
         {orgs.length > 0 && (
           <>
-            <h2 className="text-2xl font-bold my-3">Organizaciones:</h2>
-            <div className="flex flex-wrap gap-5 justify-start">
+            <h2 className="my-3 text-2xl font-bold">Organizaciones:</h2>
+            <div className="flex flex-wrap justify-start gap-5">
               {orgs.map((org) => (
                 <UserCard
                   key={org.id}
